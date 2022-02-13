@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.810.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "addressbook-web-tests", "addressbook-web-tests.csproj", "{25B81ABC-4EDC-4BE0-912A-EC311FE704C9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4EB493D5-4859-4F82-AB8C-31357A96980B}"
+	ProjectSection(SolutionItems) = preProject
+		NUnitTestClass.cs = NUnitTestClass.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,5 +26,13 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A56016D8-17B1-475E-BBC3-69011ADDAF99}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.VersionControlPolicy = $1
+		$1.CommitMessageStyle = $2
+		$2.LastFilePostfix = "@:\n  "
+		$2.IncludeDirectoryPaths = True
+		$2.LineAlign = 0
 	EndGlobalSection
 EndGlobal
